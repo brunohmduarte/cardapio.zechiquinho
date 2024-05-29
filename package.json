@@ -1,0 +1,23 @@
+{
+  "name": "cardapio.zechiquinho",
+  "version": "1.0.0",
+  "description": "--- Projeto criado para expansão de venda de polpa de frutas e produtos congelados via Whatsapp.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunohmduarte/cardapio.zechiquinho.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunohmduarte/cardapio.zechiquinho/issues"
+  },
+  "homepage": "https://github.com/brunohmduarte/cardapio.zechiquinho#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
