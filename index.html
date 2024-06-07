@@ -23,20 +23,20 @@
         <header class="w-100s h-auto mb-5">
             <!-- HEADER TOP -->
             <div id="header-top" class="w-100 h-25 py-1">
-                <div class="d-flex justify-content-center align-items-center gap-1">
-                    <i class="bx-few bx bx-md bxs-package" size="md"></i>
+                <div class="ht-items d-flex justify-content-center align-items-center gap-1">
+                    <i class="bx-few bx bx-sm bxs-package" size="md"></i>
                     <span><b>Entrega Grátis</b> para toda a cidade de <b>Osvaldo Cruz/SP</b></span>
                 </div>
-                <div class="d-flex justify-content-center align-items-center gap-1">
-                    <i class='bx bx-md bxs-credit-card'></i>
-                    <span>Parcelamento em <b>até 3x sem juros</b></span>
+                <div class="ht-items d-flex justify-content-center align-items-center gap-1">
+                    <i class='bx bx-sm bxs-credit-card'></i>
+                    <span>Pague em até <b>3x sem juros</b></span>
                 </div>
-                <div class="d-flex justify-content-center align-items-center gap-1">
-                    <i class='bx bx-md bx-envelope'></i>
+                <div class="ht-items d-flex justify-content-center align-items-center gap-1">
+                    <i class='bx bx-sm bx-envelope'></i>
                     <span><b>E-mail:</b> sac@zechiquinho.com.br</span>
                 </div>
-                <div class="d-flex justify-content-center align-items-center gap-1">
-                    <i class='bx bx-md bxl-whatsapp' ></i>
+                <div class="ht-items d-flex justify-content-center align-items-center gap-1">
+                    <i class='bx bx-sm bxl-whatsapp' ></i>
                     <span><b>Whatsapp:</b> (18)99999-9999</span>
                 </div>
             </div>
@@ -44,16 +44,16 @@
             <!-- HEADER MAIN -->
             <div id="header-main" class="w-100">
                 <div class="p-2 w-50">
-                    <h1 class="fw-bold text-light">Zé Chiquinho</h1>
+                    <h1 class="fw-bold">Zé Chiquinho</h1>
                     <h4 class="fw-semibold">Cardápio Digital</h4>
-                    <p class="text-light mt-4 mb-4">Temos polpa de frutas, açaí e pão de queijo, tudo da melhor qualidade e com preço baixo, para atender você e sua família.</p>
+                    <p class="mt-4 mb-4">Temos polpa de frutas, açaí e pão de queijo, tudo da melhor qualidade e com preço baixo, para atender você e sua família.</p>
                     <div class="d-flex flex-column">
                         <h6 class="">Siga-nos nas redes sociais</h6>
                         <ul class="d-flex justify-content-start align-items-start list-unstyled gap-1">
-                            <li><i class='bx bx-sm bxl-facebook-circle text-light'></i></li>
-                            <li><i class='bx bx-sm bxl-instagram-alt text-light'></i></li>
-                            <li><i class='bx bx-sm bxl-whatsapp text-light' ></i></li>
-                            <li><i class='bx bx-sm bx-envelope text-light' ></i></li>
+                            <li><i class='bx bx-sm bxl-facebook-circle'></i></li>
+                            <li><i class='bx bx-sm bxl-instagram-alt'></i></li>
+                            <li><i class='bx bx-sm bxl-whatsapp' ></i></li>
+                            <li><i class='bx bx-sm bx-envelope' ></i></li>
                         </ul>
                     </div>
                 </div>
@@ -62,148 +62,308 @@
 
         <!-- CONTENT -->
         <div id="catalog" class="container-fluid mb-5">
-            <div id="content" class="row">
-                <div class="mb-4 text-center">
-                    <h2 class="text-uppercase">Conheça o nosso cardápio</h2>
+            <div id="content">
+                <div class="mb-5 text-center">
+                    <h2 class="text-uppercase fw-semibold">Conheça o nosso cardápio</h2>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/Abacaxi.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
+
+                <div id="content-fruit-polp" class="row my-4">
+                    <div class="col-12">
+                        <h4 class="mb-0 fw-semibold border-bottom">Polpas de Frutas</h4>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Abacaxi.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
                                     </div>
-                                    <div class="field">
-                                        0
-                                    </div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
                                 </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Abacaxi_Hortelã.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Acerola.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/framboesa.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Laranja.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Limão.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">0</div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/Abacaxi_Hortelã.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
+
+                <div id="content-acai" class="row my-4">
+                    <div class="col-12">
+                        <h4 class="mb-0 fw-semibold border-bottom">Açaí</h4>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/acai1.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
                                     </div>
-                                    <div class="field">
-                                        0
-                                    </div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
                                 </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/acai2.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">0</div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/Acerola.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
+
+                <div id="content-cheese-bread" class="row my-4">
+                    <div class="col-12">
+                        <h4 class="mb-0 fw-semibold border-bottom">Pão de Queijo</h4>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/pao-de-queijo.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">
+                                            0
+                                        </div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
                                     </div>
-                                    <div class="field">
-                                        0
-                                    </div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
                                 </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card my-3 shadow-sm">
+                            <img src="./assets/images/Pao-de-Queijo-400g.png" class="card-img-top pt-3 px-2" alt="...">
+                            <div class="card-body">
+                                <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
+                                <div class="price fw-bold text-center mb-4">R$ 16,50</div>
+                                <div class="d-flex flex-column">
+                                    <div class="counter d-flex justify-content-center align-items-center mb-3">
+                                        <div class="minus">
+                                            <i class='bx bx-sm bx-minus'></i>
+                                        </div>
+                                        <div class="field">0</div>
+                                        <div class="plus">
+                                            <i class='bx bx-sm bx-plus'></i>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success shadow">Adicionar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/framboesa.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
-                                    </div>
-                                    <div class="field">
-                                        0
-                                    </div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
-                                </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
-                            </div>
-                        </div>
+
+            </div>
+        </div>
+
+        <footer id="footer" class="container-fluid py-4">
+            <div id="footer-main">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="fw-regular text-uppercase">Produtos</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light text-decoration-none">Product 1</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 2</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 3</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/Laranja.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
-                                    </div>
-                                    <div class="field">
-                                        0
-                                    </div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
-                                </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
-                            </div>
-                        </div>
+                    <div class="col-sm-12">
+                        <h5 class="fw-regular text-uppercase">Forma de Pagamento</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light text-decoration-none">Product 1</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 2</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 3</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card my-3 shadow-sm">
-                        <img src="./assets/images/Limão.png" class="card-img-top pt-3 px-2" alt="...">
-                        <div class="card-body">
-                            <div class="card-title fw-semibold text-center mb-4">Descrição do Produto</div>
-                            <div class="price fw-bold text-center mb-4">R$ 16,50</div>
-                            <div class="d-flex flex-column">
-                                <div class="counter d-flex justify-content-center align-items-center mb-3">
-                                    <div class="minus">
-                                        <i class='bx bx-sm bx-minus'></i>
-                                    </div>
-                                    <div class="field">0</div>
-                                    <div class="plus">
-                                        <i class='bx bx-sm bx-plus'></i>
-                                    </div>
-                                </div>
-                                <a href="#" class="btn btn-success shadow">Adicionar</a>
-                            </div>
-                        </div>
+                    <div class="col-sm-12">
+                        <h5 class="fw-regular text-uppercase">Contato</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light text-decoration-none">Product 1</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 2</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12">
+                        <h5 class="fw-regular text-uppercase">Redes Sociais</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light text-decoration-none">Product 1</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 2</a></li>
+                            <li><a href="#" class="text-light text-decoration-none">Product 3</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div id="footer-copy">
+
+            </div>
+        </footer>
     </main>
 
     <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
