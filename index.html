@@ -21,7 +21,6 @@
 <body>
     <main id="wrap" class="container-fluids">
         <header class="w-100s h-auto mb-5">
-            <!-- HEADER TOP -->
             <div id="header-top" class="w-100 h-25 py-1">
                 <div class="ht-items d-flex justify-content-center align-items-center gap-1">
                     <i class="bx-few bx bx-sm bxs-package" size="md"></i>
@@ -41,7 +40,6 @@
                 </div>
             </div>
 
-            <!-- HEADER MAIN -->
             <div id="header-main" class="w-100">
                 <div class="p-2 w-50">
                     <h1 class="fw-bold">Zé Chiquinho</h1>
@@ -57,7 +55,12 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+                <div class="subheader">
+                    <div class="cart-shopping" data-bs-toggle="modal" data-bs-target="#cartShoppingModal">
+                        <i class='bx bx-md bx-basket'></i>
+                    </div>
+                </div>
+            </div>            
         </header>
 
         <!-- CONTENT -->
@@ -399,6 +402,109 @@
                 <small class="text-light">2024 &copy; Todos os direitos reservado <h5 class="mb-0 mt-1">Zé Chiquinho</h5> Revendedor autorizado de polpas e derivados naturais pela Fruto Forte</small>
             </div>
         </footer>
+
+        <div id="cartShoppingModal" class="modal fade" tabindex="-1">
+            <div id="carouselCartShopping" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Sacola de Compras</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex gap-2 pb-3">
+                                        <figure class="w-25">
+                                            <img src="./assets/images/Abacaxi.png" alt="Polpa de Abacaxi" />
+                                        </figure>
+                                        <div class="content w-75">
+                                            <h6>Descrição do Produto</h6>
+                                            <div class="amount">Quantidade: 1Kg</div>
+                                            <div class="price fw-semibold">R$ 16,50</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex gap-2">
+                                        <figure class="w-25">
+                                            <img src="./assets/images/Abacaxi_Hortelã.png" alt="Polpa de Abacaxi" />
+                                        </figure>
+                                        <div class="content w-75">
+                                            <h6>Descrição do Produto</h6>
+                                            <div class="amount">Quantidade: 1Kg</div>
+                                            <div class="price fw-semibold">R$ 16,50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-top justify-content-start flex-md-column p-3">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="label w-50">Taxa de entrega:</span>
+                                        <span class="label w-50">R$ 0,00<span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="label w-50 fs-5 fw-semibold">TOTAL:</span>
+                                        <span class="label w-50 fs-5 fw-semibold">R$ 16,50<span>
+                                    </div>
+                                </div>
+                                <div class="modal-footer justify-content-start">
+                                    <button type="button" class="btn btn-success p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="next">Prosseguir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Endereço de Entrega</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Segunda tela...
+                                </div>
+                                <div class="modal-footer justify-content-start">
+                                    <button type="button" class="btn btn-success p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="next">Prosseguir</button>
+                                    <button type="button" class="btn btn-secondary p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="prev">Voltar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Forma de Pagamento</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Terceira tela...
+                                </div>
+                                <div class="modal-footer justify-content-start">
+                                    <button type="button" class="btn btn-success p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="next">Confirmar</button>
+                                    <button type="button" class="btn btn-secondary p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="prev">Voltar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">Confirmação do Pedido</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Quarta tela...
+                                </div>
+                                <div class="modal-footer justify-content-start">
+                                    <button type="button" class="btn btn-success p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="next">Finalizar Pedido</button>
+                                    <button type="button" class="btn btn-secondary p-2 fw-semibold w-100" data-bs-target="#carouselCartShopping" data-bs-slide="prev">Voltar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
